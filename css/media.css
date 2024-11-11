@@ -1,11 +1,52 @@
+@media (max-width: 1112px) {
+  .metaverse img {
+    max-width: 530px;
+  }
+}
+@media (max-width: 1094px) {
+  .metaverse-text p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1070px) {
+  .metaverse-text p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1061px) {
+  .metaverse img {
+    max-width: 510px;
+  }
+}
+@media (max-width: 1041px) {
+  .metaverse-text h1 {
+    font-size: 33px;
+  }
+}
+@media (max-width: 1024px) {
+  .metaverse img {
+    max-width: 496px;
+  }
+}
+
 @media (max-width: 1009px) {
   .main img {
     max-width: 450px;
   }
 }
+@media (max-width: 1005px) {
+  .metaverse img {
+    max-width: 480px;
+  }
+}
 @media (max-width: 1000px) {
   .main-text h1 {
     font-size: 38px;
+  }
+}
+@media (max-width: 991px) {
+  .metaverse img {
+    max-width: 463px;
   }
 }
 
@@ -18,12 +59,24 @@
     padding-block: 40px;
   }
 }
+@media (max-width: 973px) {
+  .metaverse-text h1 {
+    font-size: 31px;
+  }
+  .metaverse-text p {
+    font-size: 13px;
+  }
+}
 @media (max-width: 971px) {
   .main-text h1 {
     font-size: 36px;
   }
 }
-
+@media (max-width: 953px) {
+  .metaverse img {
+    max-width: 438px;
+  }
+}
 @media (max-width: 951px) {
   .main img {
     max-width: 433px;
@@ -64,6 +117,11 @@
     padding: 12px 24px;
   }
 }
+@media (max-width: 886px) {
+  .metaverse img {
+    max-width: 419px;
+  }
+}
 @media (max-width: 884px) {
   .main img {
     max-width: 415px;
@@ -74,12 +132,26 @@
     font-size: 31px;
   }
 }
+@media (max-width: 868px) {
+  .metaverse img {
+    max-width: 403px;
+  }
+}
+
 @media (max-width: 854px) {
   .main img {
     max-width: 400px;
   }
   .main-text P {
     font-size: 16px;
+  }
+}
+@media (max-width: 853px) {
+  .metaverse-text h1 {
+    font-size: 29px;
+  }
+  .metaverse-text p {
+    font-size: 12px;
   }
 }
 @media (max-width: 838px) {
@@ -97,12 +169,22 @@
     max-width: 385px;
   }
 }
+@media (max-width: 813px) {
+  .metaverse img {
+    max-width: 387px;
+  }
+}
 @media (max-width: 803px) {
   .main-text h1 {
     font-size: 29px;
   }
   .main-text p {
     font-size: 14px;
+  }
+}
+@media (max-width: 797px) {
+  .metaverse-text h1 {
+    font-size: 26px;
   }
 }
 @media (max-width: 784px) {
@@ -121,6 +203,16 @@
 @media (max-width: 770px) {
   .main img {
     max-width: 345px;
+  }
+}
+@media (max-width: 767px) {
+  .metaverse img {
+    max-width: 362px;
+  }
+}
+@media (max-width: 739px) {
+  .metaverse img {
+    max-width: 328px;
   }
 }
 @media (max-width: 742px) {
@@ -143,11 +235,22 @@
     font-size: 25px;
   }
 }
-@media (max-width: 667px) {
-  .main img {
+
+@media (max-width: 669px) {
+  .metaverse img {
     max-width: 309px;
   }
+  .metaverse-text h1 {
+    font-size: 24px;
+  }
 }
+
+@media (max-width: 656px) {
+  .metaverse img {
+    max-width: 292px;
+  }
+}
+
 @media (max-width: 651px) {
   .main-text h1 {
     font-size: 23px;
@@ -161,6 +264,14 @@
     font-size: 9px;
   }
 }
+@media (max-width: 633px) {
+  .metaverse-text p {
+    font-size: 11px;
+  }
+  .metaverse img {
+    max-width: 274px;
+  }
+}
 @media (max-width: 630px) {
   .main img {
     max-width: 293px;
@@ -169,6 +280,24 @@
 @media (max-width: 615px) {
   .main-text h1 {
     font-size: 21px;
+  }
+  .metaverse img {
+    max-width: 254px;
+  }
+  .metaverse-text button {
+    padding: 8px 14px;
+  }
+}
+@media (max-width: 595px) {
+  .metaverse {
+    flex-direction: column;
+  }
+  .metaverse-text{
+    align-items: flex-start;
+    text-align: start;
+  }
+  .metaverse-text button{
+    font-size: 11px;
   }
 }
 @media (max-width: 598px) {
@@ -257,13 +386,13 @@
   .main-text p {
     max-width: 220px;
   }
-.main-text h1{
-  font-size: 25px;
-  max-width: 320px;
-}
-.main img{
-  max-width: 260px;
-}
+  .main-text h1 {
+    font-size: 25px;
+    max-width: 320px;
+  }
+  .main img {
+    max-width: 260px;
+  }
   .main {
     flex-direction: column-reverse;
     align-items: center;

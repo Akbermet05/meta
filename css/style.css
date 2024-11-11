@@ -6,8 +6,7 @@
   /* outline: 1px solid blue; */
 }
 .header a,
-p,
-span {
+p {
   font-family: Poppins, sans-serif;
 }
 
@@ -16,11 +15,14 @@ h2,
 h3,
 h4,
 h5,
-a,
-p {
+a {
   color: azure;
 }
-h1 {
+p {
+  color: rgba(255, 255, 255, 0.8);
+}
+h1,
+span {
   font-family: Orbitron, sans-serif;
 }
 button {
@@ -32,6 +34,13 @@ button {
 body {
   background-color: #010209;
 }
+
+.container {
+  width: 100%;
+  max-width: 1540px;
+  margin-inline: auto;
+  padding-inline: 70px;
+}
 #header {
   padding-block: 30px;
 }
@@ -39,17 +48,9 @@ body {
   width: 100%;
   max-width: 1540px;
   margin-inline: auto;
-  padding-inline: 30px;
+  padding-inline: 40px;
 }
-.container {
-  width: 100%;
-  max-width: 1540px;
-  margin-inline: auto;
-  padding-inline: 60px;
-}
-#header {
-  padding-block: 50px;
-}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -133,4 +134,42 @@ nav a {
 .main-box span {
   font-size: clamp(1rem, 0.852rem + 0.74vw, 1.563rem);
   font-weight: 500;
+}
+#metaverse {
+  padding-block: 40px;
+}
+.metaverse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.metaverse-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+.metaverse img {
+  max-width: 550px;
+  width: 100%;
+}
+.metaverse-text h1 {
+  font-size: 35px;
+}
+.metaverse-text h1 span {
+  color: #d10ed1;
+}
+.metaverse-text button{
+  font-size: 12px;
+}
+.metaverse-text p {
+  font-size: 16px;
+  max-width: 520px;
+}
+.metaverse-text button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
+  font-size: 14px;
 }
