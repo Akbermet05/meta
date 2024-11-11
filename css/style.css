@@ -3,7 +3,7 @@
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
-  outline: 1px solid blue;
+  /* outline: 1px solid blue; */
 }
 .header a,
 p,
