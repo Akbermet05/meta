@@ -292,11 +292,11 @@
   .metaverse {
     flex-direction: column;
   }
-  .metaverse-text{
+  .metaverse-text {
     align-items: flex-start;
     text-align: start;
   }
-  .metaverse-text button{
+  .metaverse-text button {
     font-size: 11px;
   }
 }
@@ -402,7 +402,11 @@
     text-align: center;
   }
 }
-
+@media (max-width: 350px) {
+  .metaverse img {
+    max-width: 284px;
+  }
+}
 /* }
 @media (max-width: 434px) {
   .main-btn button:last-child {
