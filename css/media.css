@@ -402,9 +402,21 @@
     text-align: center;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 351px) {
   .metaverse img {
     max-width: 284px;
+  }
+  .work-title p {
+    text-align: start;
+  }
+  .work-box1 {
+    display: none;
+  }
+  .work-title h1 {
+    font-size: 26px;
+  }
+  .work-title p {
+    font-size: 15px;
   }
 }
 /* }
