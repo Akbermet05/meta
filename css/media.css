@@ -454,7 +454,7 @@
     text-align: start;
   }
   .work-box1 {
-    display: none;
+    display: block;
   }
   .work-title h1 {
     font-size: 26px;
