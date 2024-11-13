@@ -453,8 +453,7 @@
   .latest-title p {
     text-align: start;
   }
-  .work-box1,
-  .work-box2 {
+  .work-box1 {
     display: none;
   }
   .work-title h1 {
@@ -525,39 +524,3 @@
     padding-block: 20px;
   }
 }
-/* }
-@media (max-width: 434px) {
-  .main-btn button:last-child {
-    padding: 8px 9px;
-  }
-  .main-btn button:first-child {
-    padding: 8px 11px;
-  }
-}
-@media (max-width: 428px) {
-  .main-box span {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 414px) {
-  .main img {
-    max-width: 161px;
-  }
-}
-@media (max-width: 397px) {
-  .main {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-  .main-text{
-    text-align: center;
-    align-items: center;
-  }
-  .main-box{
-    display: none;
-  }
-  .main-text h1{
-    max-width: 420px;
-  }
-} */
