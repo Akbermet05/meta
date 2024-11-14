@@ -423,9 +423,10 @@
   }
 }
 @media (max-width: 441px) {
-  .main-box {
+  .work-box1 {
     display: none;
   }
+
   .main-text p {
     max-width: 220px;
   }
@@ -445,7 +446,7 @@
     text-align: center;
   }
 }
-@media (max-width: 351px) {
+@media (max-width: 431px) {
   .metaverse img {
     max-width: 284px;
   }
@@ -460,22 +461,14 @@
     font-size: 26px;
   }
   .work-title p {
-    font-size: 15px;
+    font-size: 14px;
   }
   .work-box p {
     font-size: 11px;
     text-align: start;
   }
-  .latest-title h1 {
-    font-size: 27px;
-  }
-  .latest-title p {
+  .metaverse-text p {
     font-size: 13px;
-  }
-
-  .latest-text {
-    display: flex;
-    flex-direction: column;
   }
   .work-box h2 {
     font-size: 19px;
@@ -494,8 +487,25 @@
   h2 {
     font-size: 21px;
   }
+  .latest-title h1 {
+    font-size: 27px;
+  }
+  .latest-title p {
+    font-size: 13px;
+  }
+
+  .latest-text {
+    display: block;
+    flex-direction: column;
+  }
+  .latest-title {
+    padding-block: 5px;
+  }
   #footer {
     padding-block: 20px;
+  }
+  .latest-title h1 {
+    font-size: 34px;
   }
   .footer-sait img {
     width: 26px;
@@ -507,7 +517,7 @@
     font-size: 35px;
   }
   .footer p {
-    font-size: 11px;
+    font-size: 13px;
   }
   .latest img {
     padding-block: 20px;
