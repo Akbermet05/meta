@@ -101,9 +101,9 @@ nav a {
 }
 .main-text p {
   text-align: start;
-  max-width: 540px;
+  max-width: 550px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
 }
 .main-btn {
   display: flex;
@@ -170,7 +170,7 @@ nav a {
 }
 .metaverse-text p {
   text-align: start;
-  font-size: 16px;
+  font-size: 18px;
   max-width: 520px;
 }
 .metaverse-text button {
@@ -190,11 +190,11 @@ nav a {
   gap: 10px;
   padding-bottom: 30px;
 }
-.work-title .latest-title,
-p {
-  max-width: 550px;
+.work-title p,
+.latest-title p {
   font-size: 20px;
   font-weight: 400;
+  max-width: 670px;
   text-align: center;
 }
 .work-title,
@@ -232,7 +232,8 @@ h2 {
   font-size: 20px;
   font-family: Orbitron, sans-serif;
 }
-.work-box.work-box1,p {
+.work-box.work-box1,
+p {
   text-align: start;
   font-size: 14px;
 }
@@ -273,7 +274,6 @@ h2 {
 }
 .footer-text p {
   max-width: 400px;
-  font-size: 16px;
 }
 .footer-text h1 {
   font-size: 40px;
@@ -322,7 +322,7 @@ li {
 }
 .footer p {
   text-align: start;
-  font-size: 14px;
+  font-size: 18px;
 }
 .footer li {
   text-align: start;
