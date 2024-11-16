@@ -454,6 +454,7 @@
   .latest-title p {
     text-align: start;
   }
+
   .work-box1 {
     display: none;
   }
@@ -488,8 +489,9 @@
     font-size: 21px;
   }
   .latest-title h1 {
-    font-size: 27px;
+    font-size: 29px;
   }
+
   .latest-title p {
     font-size: 13px;
   }
@@ -532,7 +534,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   .latest-title h1 {
     font-size: 24px;
   }
@@ -546,5 +548,11 @@
   .work-box1,
   h2 {
     font-size: 26px;
+  }
+  .work-box h2 {
+    font-size: 24px;
+  }
+  .latest-title h1 {
+    font-size: 23px;
   }
 }
