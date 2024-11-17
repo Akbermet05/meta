@@ -182,8 +182,7 @@ nav a {
 #work {
   padding-block: 50px;
 }
-.work-title,
-.latest-title {
+.work-title, .latest-title{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -200,7 +199,7 @@ nav a {
 .work-title,
 .latest-title,
 h1 {
-  width: 100%;
+  /* width: 100%; */
   font-size: 30px;
 }
 .work-title .latest-title h1,
